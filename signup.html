@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Signup</title>
+</head>
+<body style="border: 1px solid black; padding:20px;">
+    <h1>Buat Akun Baru</h1>
+    <h3>Sign Up form</h3>
+    <form action="Appreciation.html" method="post">
+        <label for="First Name">First Name:</label><br>
+        <input type="text" id="First Name" name="First Name" required><br>
+
+        <label for="Last Name">Last Name:</label><br>
+        <input type="text" id="Last Name" name="Last Name" required><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="Gender">Gender:</label><br>
+        <input type="radio" id="Male" name="Gender" value="Male" required>
+        <label for="Male">Male</label><br>
+        <input type="radio" id="Female" name="Gender" value="Female" required>
+        <label for="Female">Female</label><br>
+        <input type="radio" id="Other" name="Gender" value="Other" required>
+        <label for="Other">Other</label><br><br>
+
+        <label for="Nationality">Nationality:</label>
+        <select id="Nationality" name="Nationality" required>
+            <option value="Indonesian">Indonesian</option>
+            <option value="Singaporean">Singaporean</option>
+            <option value="Malaysian">Malaysian</option>
+            <option value="Australian">Australian</option>
+        </select><br><br>
+
+        <label for="Language">Language Spoken:</label><br>
+        <input type="checkbox" id="Bahasa Indonesia" name="Language" value="Bahasa Indonesia">
+        <label for="Bahasa Indonesia">Bahasa Indonesia</label><br>
+        <input type="checkbox" id="English" name="Language" value="English">
+        <label for="English">English</label><br>  
+        <input type="checkbox" id="Malay" name="Language" value="Malaysian">
+        <label for="Malaysian">Malay</label><br>  
+        <input type="checkbox" id="Mandarin" name="Language" value="Mandarin">
+        <label for="Mandarin">Mandarin</label><br><br>
+
+        <label for="Bio">Bio:</label><br>
+        <textarea id="Bio" name="Bio" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Sign Up">
+
+    </form>
+</body>
+<script src="script.js"></script>
+</html>
